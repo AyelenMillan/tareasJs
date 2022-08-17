@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+#app{
+    background-color: rgb(7, 28, 2);
+    width: 550px;
+    margin: 0 auto;
+    border: solid 1px rgb(11, 66, 130);
+    padding: 20px;
+}
+
+#time{
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
+
+#time #value {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+input[type="text"] {
+    padding: 10px;
+    border: solid 1px #ccc;
+    width: 300px;
+}
+
+button,
+input[type="submit"] {
+    border: none;
+    background-color: #d61010;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 36px;
+}
+
+#task{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.task {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.task .completed {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.done{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(37, 192, 50);
+    margin: 36px;
+    border-radius: 5px;
+
+}
+.title{
+    color: rgb(160, 165, 29);
+    text-shadow: 0.1em 0.1em #333;
+    font-size: 20px;
+
+}
